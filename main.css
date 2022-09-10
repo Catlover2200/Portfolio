@@ -1,6 +1,5 @@
 
-
-.p
+.p {
     font-family: "Bookman Old Style";
     font-weight: 300;
 }
@@ -9,3 +8,10 @@
     font-family: "Bookman Old Style";
     font-weight: bold;
 }
+
+#site-footer {
+    height: 130px;
+    width: auto;
+    background: darkolivegreen;
+}
+
