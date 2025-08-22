@@ -63,39 +63,6 @@
     </section>
 
 </main>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Billetto Chat Widget</title>
-</head>
-<body>
-  <h1>Billetto Chat Widget Test</h1>
-
-  <!-- Optional container if the widget requires a placement -->
-  <div id="billetto-chat-widget"></div>
-
-  <!-- Billetto chat script -->
-  <script src="https://billetto.dk/chat_widget.js?token=04c1285e7830069b257f623f64ad35b6"></script>
-
-  <!-- Initialization if needed -->
-  <script>
-    // Check if the widget loaded successfully
-    document.addEventListener("DOMContentLoaded", function () {
-      if (typeof BillettoChatWidget !== "undefined") {
-        // If the Billetto widget requires explicit initialization
-        BillettoChatWidget.init({
-          container: "#billetto-chat-widget"
-        });
-      } else {
-        console.error("Billetto chat widget failed to load. Check the token or script URL.");
-      }
-    });
-  </script>
-</body>
-</html>
-
 </body>
 <footer id="site-footer">
     <p class="p2">Contact me on:
